@@ -1,7 +1,9 @@
 board=[" ", " ", " ", " ", " ", " " , " ", " ", " "]
 
-current_player= ["0"]
+current_player= 1
+num= 0
 def turn_count(current_player)
+  current_player.each do
     if current_player.even? true
     puts "x"
     current_player.each +=1
