@@ -9,7 +9,9 @@ current_player.each do |num|
     num+=1
   end
 elsif current_player.odd? false
+  puts "0"
 end
 
 
 turn_count(current_player)
+
