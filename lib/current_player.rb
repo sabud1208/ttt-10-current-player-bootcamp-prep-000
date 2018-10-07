@@ -8,6 +8,7 @@ current_player.each do |num|
     puts "x"
     num+=1
 end
+end
 elsif current_player.odd? false
   puts "0"
   num+=1
