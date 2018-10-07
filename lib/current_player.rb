@@ -10,4 +10,5 @@ def turn_count(current_player)
     puts "o"
   end
 end
-    
+
+turn_count(current_player)
