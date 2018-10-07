@@ -10,8 +10,9 @@ current_player.each do |num|
   end
 elsif current_player.odd? false
   puts "0"
+else puts "game over"
+end
 end
 
 
 turn_count(current_player)
-
