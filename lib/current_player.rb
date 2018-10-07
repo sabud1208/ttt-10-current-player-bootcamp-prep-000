@@ -9,6 +9,7 @@ def turn_count(current_player)
   elsif current_player.even? == false
     puts "o"
 end
+end
 
 
 turn_count(current_player)
