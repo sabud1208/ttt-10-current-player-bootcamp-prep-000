@@ -8,9 +8,7 @@ current_player.each do |num|
     puts "x"
     num+=1
   end
-  elsif current_player.even? == false
-    puts "o"
-end
+elsif current_player.odd? false
 end
 
 
