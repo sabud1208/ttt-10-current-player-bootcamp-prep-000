@@ -2,11 +2,11 @@ board=[" ", " ", " ", " ", " ", " " , " ", " ", " "]
 
 
 def turn_count(current_player)
-  current=1
-  if current.even? true
+  current_player=1
+  if current_player.even? true
     puts "x"
     current+=1
-  elsif current.even? == false
+  elsif current_player.even? == false
     puts "o"
 end
 end
